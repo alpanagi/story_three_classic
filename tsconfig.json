@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "moduleResolution": "Node",
+    "lib": ["ES2019", "dom"],
+    "target": "ES6",
+    "types": [
+      "@webgpu/types"
+    ]
+  },
+  "extends": "@tsconfig/strictest/tsconfig.json"
+}
